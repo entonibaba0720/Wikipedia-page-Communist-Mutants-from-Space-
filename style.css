@@ -1,0 +1,564 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+a {
+  color: #0645ad;
+}
+
+main {
+  background-color:white;
+  height:auto;
+  margin-top: 85px;
+  margin-left: 169px;
+  position: relative;
+  z-index: 1;
+  padding-left:20px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  padding-right: 15px;
+  border-bottom: 1px solid #A7D7F9;
+  border-left:1px solid #A7D7F9;
+}
+
+main .communist {
+  font-family: "Linux Libertine",Georgia,Times, Sans-serif;
+  line-height: 1.5;
+  font-size: 28px;
+  padding-top: 15px;
+  border-bottom: 1px solid gray;
+}
+
+
+.header {
+  font-size: 12px;
+  font-family: arial;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 100%;
+  margin-left: 100px;
+  background-image: linear-gradient(#ffffff 20px,#f6f6f6 70px)
+}
+
+
+.header li {
+  list-style: none;
+  text-decoration: none;
+  color: #536DC9;
+  float: right;
+  margin: 5px;
+}
+
+.header li a {
+  text-decoration: none;
+}
+
+.header li a:hover {
+  text-decoration: underline;
+}
+
+.menu5 .fa-cog {
+  float: right;
+  color: gray;
+  margin-top:-20px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.menu5 .fa-pencil {
+  color: gray;
+  float: left;
+  margin-left: 45px;
+}
+
+.edit {
+  float: left;
+  margin-top:-15px;
+}
+
+.edit a {
+  text-decoration: none;
+  color:gray;
+}
+
+nav {
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 168px;
+  width:calc(100% - 168px);
+  font-family: arial;
+  font-size:12px;
+  border-bottom: 1px solid #A7D7F9;
+}
+
+
+#left {
+  list-style:none;
+  float:left;
+}
+
+#left li {
+  float: left;
+  height: 25px;
+  border-right: 1px solid #A7D7F9;
+  padding: 0px 10px;
+  line-height:2 ;
+}
+
+#left li a {
+  display: block;
+  text-decoration: none;
+  color: #0645ad;
+}
+
+
+.article {
+  background-color: white;
+}
+
+.talk {
+  background-color: #EAF3F8;
+}
+
+.talk:hover {
+  text-decoration:underline;
+}
+
+#right {
+  float: right;
+  list-style:none;
+  margin-left:500px;
+}
+
+#right li {
+  float: right;
+  border-right: 1px solid #A7D7F9;
+  padding:0px 10px;
+  line-height:2;
+}
+
+#right li a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+#right li a:hover {
+  text-decoration:underline;
+}
+
+.read {
+  background-color: white;
+  margin-top: 1px;
+}
+
+#search-box {
+  float:right;
+  margin-left: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 220px;
+  border: solid 1px #aaa;
+}
+
+.view, .edit1 {
+  background-color: #EAF3F8;
+}
+
+
+aside {
+  width: 168px;
+  position: absolute;
+  height: 1500px;
+  top: 0;
+  left: 0;
+  font-size:12px;
+  font-family: sans-serif;
+  line-height: 18px;
+  background-image: linear-gradient(#ffffff 20px,#f6f6f6 70px);
+}
+
+.logo img {
+  width: 130px;
+  margin:10px;
+}
+
+#left-nav a {
+  text-decoration: none;
+}
+
+#left-nav a:hover {
+  text-decoration: underline;
+}
+
+#left-nav li {
+  list-style: none;
+}
+
+hr {
+  width: 120px;
+  margin-left: 20px;
+}
+
+.menu1 {
+  padding: 3px;
+  margin-left: 10px;
+}
+
+.menu2, .menu3, .menu4, .menu5 {
+    margin-left: 20px;
+    padding: 8px;
+}
+
+.menu2 p, .menu3 p, .menu4 p, .menu5 p {
+  margin-left: -15px;
+}
+
+
+.edit {
+  margin-left: 60px;
+}
+
+/*--main--*/
+.sub1 {
+  font-family: arial;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.p1 {
+  font-family:arial;
+  font-size:14px;
+  margin-top: 20px;
+  margin-right: 290px;
+}
+
+.p1 a {
+  text-decoration: none;
+}
+
+.p1 a:hover {
+  text-decoration: underline;
+}
+
+.table {
+  display: block;
+  padding:5px 0px 15px 30px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  width: 150px;
+  border: 1px solid #aaa;
+  line-height: 1.6;
+  font-family: arial;
+  font-size: 14px;
+  display: block;
+  float: left;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+.game {
+  list-style: none;
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+h2 {
+  font-size:24px;
+  margin-top:20px;
+  font-family:"Linux Libertine",Georgia,Times,serif;
+  font-weight:normal;
+  padding-bottom: 5px;
+}
+
+#titlesub {
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline;
+}
+
+h2 a {
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  text-decoration:none;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+.bracket {
+  font-size: 15px;
+  margin:0px 5px;
+}
+
+.alien {
+  font-family:arial;
+  font-size: 14px;
+  line-height: 1.6;
+  border-top: 1px solid #aaa;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+figure {
+  float: left;
+  display: block;
+  padding:5px 5px 7px 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  width: 200px;
+  border: 1px solid #aaa;
+  line-height: 1.6;
+  font-size: 12px;
+  font-family: arial;
+  text-align: justify;
+  margin-right:20px;
+  margin-bottom: 20px;
+}
+
+.player {
+  font-size:14px;
+  margin-top:20px;
+  margin-bottom:15px;
+  font-family:arial;
+  padding-bottom: 5px;
+}
+
+#game {
+  font-size:24px;
+  margin-top:20px;
+  font-family:"Linux Libertine",Georgia,Times,serif;
+  font-weight:normal;
+}
+
+.gamemenu {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+#titlesub2 {
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline;
+}
+
+.titlegame {
+  border-bottom: 1px solid #aaa;
+}
+
+.easter {
+  font-size:14px;
+  margin-bottom:15px;
+  padding-top: 5px;
+  font-family:arial;
+  border-top: 1px solid #aaa;
+}
+
+.references {
+  font-size: 13px;
+  font-family:arial;
+  margin-bottom:10px;
+  padding-top: 10px;
+  border-top: 1px solid #aaa;
+
+}
+
+.references li{
+  margin-left: 40px;
+}
+
+.references li a{
+  text-decoration: none;
+}
+
+.references li a:hover {
+  text-decoration: underline;
+}
+
+.imageright  {
+  float: right;
+  width: 264px;
+  font-size: 90%;
+  text-align: left;
+  border: 1px solid #aaa;
+  border-spacing: 3px;
+  background-color: #f9f9f9;
+  color: black;
+  margin:-40px 10px 15px;
+  padding: 10px;
+  clear: right;
+}
+
+.story {
+  padding-top: 200px;
+}
+
+.figure1 {
+  border: none;
+  margin-top:-10px;
+}
+
+.col1 {
+  list-style: none;
+  float: left;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.col2 {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 130px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.imagetitle {
+  text-align: center;
+}
+
+.circle li a {
+  text-decoration:none;
+}
+
+.circle li a:hover {
+  text-decoration: underline;
+}
+
+.atariage {
+  padding-left: 30px;
+  font-family:arial;
+  border-top: 1px solid #aaa;
+  margin-bottom:10px;
+  padding-top: 10px;
+}
+
+.circle {
+    list-style:none;
+}
+
+.circle li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: #0000FF;
+    font-size:6px;
+    padding-bottom: 5px;
+}
+
+.catlist li a {
+  text-decoration: none;
+}
+
+.catlist li a:hover {
+  text-decoration: underline;
+}
+
+.categories li {
+  list-style: none;
+  display:block;
+  float:left;
+  background-color: #F1F1F1;
+  padding:5px 10px;
+  font-family: arial;
+  font-size: 14px;
+  color:#0645ad;
+  border-right: 1px solid #aaa;
+}
+.categories li:last-child {
+    border-right: none;
+}
+
+.categories li:first-child {
+    border-right: none;
+}
+
+.catlist {
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #aaa;
+}
+
+.categ {
+  list-style: none;
+  display:block;
+  float:left;
+  background-color: #F1F1F1;
+  padding:5px 10px;
+  font-family: arial;
+  font-size: 14px;
+  color:#0645ad;
+  border-right: none;
+}
+
+footer {
+		font-family: sans-serif;
+    font-size: 11px;
+    background-color: #F6F6F6;
+    height: 220px;
+  padding-top: 20px;
+}
+
+.end {
+  margin-left: 200px;
+
+}
+
+
+
+.end p {
+  margin-bottom: 20px;
+
+}
+
+.end p a {
+  text-decoration:none;
+}
+
+.end p a:hover {
+  text-decoration: underline;
+}
+
+.privacy {
+  float: left;
+  list-style: none;
+  display:inline;
+}
+
+.privacy li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 11px;
+}
+
+.privacy li a{
+  text-decoration:none;
+  float: left;
+}
+
+.privacy li a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  float: right;
+  margin-right: 20px;
+}
